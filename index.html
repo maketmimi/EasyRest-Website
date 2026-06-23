@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EasyRest - تطبيق سطح مكتب خفيف الوزن لنظام Windows يذكرك بأخذ فترات راحة. حافظ على تركيزك، قلل من التعب، وابنِ عادات عمل صحية.">
+  <title>EasyRest - حافظ على تركيزك. خذ فترات راحة أفضل.</title>
+  <link rel="icon" type="image/png" href="Assets/EasyRestIcon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="التنقل الرئيسي">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo" aria-label="EasyRest الرئيسية">
+        <img src="Assets/EasyRestIcon.png" alt="EasyRest Logo" class="logo-image">
+        <span class="logo-text">EasyRest</span>
+      </a>
+      <button class="nav-toggle" aria-label="فتح قائمة التنقل" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-menu" role="menubar">
+        <li role="none"><a href="#features" role="menuitem">المميزات</a></li>
+        <li role="none"><a href="#why-breaks" role="menuitem">أهمية الراحة</a></li>
+        <li role="none"><a href="#how-it-works" role="menuitem">كيف يعمل</a></li>
+        <li role="none"><a href="#download" role="menuitem" class="nav-cta">تحميل</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-container">
+      <div class="hero-content" data-reveal>
+        <h1>حافظ على تركيزك. خذ فترات راحة أفضل.</h1>
+        <p class="hero-subtitle">EasyRest يذكرك تلقائياً عندما يحين وقت الراحة، مما يساعدك على الحفاظ على إنتاجيتك، وتقليل التعب، وبناء عادات عمل صحية.</p>
+        <div class="hero-buttons">
+          <a href="#download" class="btn btn-primary">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            تحميل لنظام Windows
+          </a>
+          <a href="#features" class="btn btn-secondary">عرض المميزات</a>
+        </div>
+      </div>
+      <div class="hero-carousel" data-reveal data-reveal-delay="200">
+        <div class="carousel-container">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <div class="slide-window">
+                <div class="slide-header">
+                  <span class="slide-dot slide-dot-red"></span>
+                  <span class="slide-dot slide-dot-yellow"></span>
+                  <span class="slide-dot slide-dot-green"></span>
+                </div>
+                <div class="slide-content">
+                  <img src="Assets/EasyRestPoster.png" alt="EasyRest - اللوحة الرئيسية" class="slide-image">
+                  <div class="slide-placeholder">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                      <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                      <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                      <polyline points="21 15 16 10 5 21"></polyline>
+                    </svg>
+                    <span>صورة الشاشة 1</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="slide-window">
+                <div class="slide-header">
+                  <span class="slide-dot slide-dot-red"></span>
+                  <span class="slide-dot slide-dot-yellow"></span>
+                  <span class="slide-dot slide-dot-green"></span>
+                </div>
+                <div class="slide-content">
+                  <img src="Assets/mainDashboard.png" alt="EasyRest - المؤقت يعمل" class="slide-image">
+                  <div class="slide-placeholder">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                      <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                      <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                      <polyline points="21 15 16 10 5 21"></polyline>
+                    </svg>
+                    <span>صورة الشاشة 2</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="slide-window">
+                <div class="slide-header">
+                  <span class="slide-dot slide-dot-red"></span>
+                  <span class="slide-dot slide-dot-yellow"></span>
+                  <span class="slide-dot slide-dot-green"></span>
+                </div>
+                <div class="slide-content">
+                  <img src="Assets/Settings.png" alt="EasyRest - شاشة الغلاف أثناء الراحة" class="slide-image">
+                  <div class="slide-placeholder">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                      <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                      <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                      <polyline points="21 15 16 10 5 21"></polyline>
+                    </svg>
+                    <span>صورة الشاشة 3</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-nav">
+            <button class="carousel-btn carousel-prev" aria-label="السابق">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+            <div class="carousel-dots">
+              <button class="carousel-dot active" data-slide="0" aria-label="الشريحة 1"></button>
+              <button class="carousel-dot" data-slide="1" aria-label="الشريحة 2"></button>
+              <button class="carousel-dot" data-slide="2" aria-label="الشريحة 3"></button>
+            </div>
+            <button class="carousel-btn carousel-next" aria-label="التالي">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Why Breaks Matter Section -->
+  <section class="section why-breaks" id="why-breaks">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <h2>أهمية فترات الراحة</h2>
+        <p>فترات الراحة المنتظمة ليست مفيدة لصحتك فحسب، بل تجعلك أكثر إنتاجية أيضاً.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="info-card" data-reveal>
+          <div class="info-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M12 6v6l4 2"></path>
+            </svg>
+          </div>
+          <h3>تقليل إجهاد العين</h3>
+          <p>امنح عينيك فترات راحة منتظمة لمنع إجهاد العين الرقمية والحفاظ على صحة الرؤية على المدى الطويل.</p>
+        </article>
+        <article class="info-card" data-reveal data-reveal-delay="100">
+          <div class="info-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path>
+              <path d="M12 6v6"></path>
+              <circle cx="12" cy="16" r="1"></circle>
+            </svg>
+          </div>
+          <h3>منع الإرهاق الذهني</h3>
+          <p>فترات الراحة القصيرة المنتظمة تعيد ضبط تركيزك وتمنع الإرهاق الذهني الناتج عن جلسات العمل الطويلة.</p>
+        </article>
+        <article class="info-card" data-reveal data-reveal-delay="200">
+          <div class="info-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M18 20V10"></path>
+              <path d="M12 20V4"></path>
+              <path d="M6 20v-6"></path>
+            </svg>
+          </div>
+          <h3>تعزيز الإنتاجية</h3>
+          <p>تظهر الدراسات أن فترات الراحة المنتظمة تزيد في الواقع من إنتاجك الكلي وجودة عملك.</p>
+        </article>
+        <article class="info-card" data-reveal data-reveal-delay="300">
+          <div class="info-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+          </div>
+          <h3>بناء عادات صحية</h3>
+          <p>جدول الراحة المنتظم يساعد في تدريب دماغك على أنماط عمل مستدامة وصحية.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section features" id="features">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <h2>كل ما تحتاجه</h2>
+        <p>مجموعة ميزات مركزة صُممت لمساعدتك على العمل بذكاء، لا بجهد أكبر.</p>
+      </div>
+      <div class="features-grid">
+        <article class="feature-card" data-reveal>
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <circle cx="12" cy="12" r="3"></circle>
+              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+            </svg>
+          </div>
+          <h3>فترات مخصصة</h3>
+          <p>اضبط فترات العمل والراحة بالطريقة التي تريدها. حدد فترات تناسب أسلوب عملك.</p>
+        </article>
+        <article class="feature-card" data-reveal data-reveal-delay="100">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+              <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+              <path d="M12 2v2"></path>
+            </svg>
+          </div>
+          <h3>أنواع تنبيه متعددة</h3>
+          <p>اختر بين الإشعارات أو التنبيهات الصوتية أو تنبيهات ملء الشاشة - ما يناسبك.</p>
+        </article>
+        <article class="feature-card" data-reveal data-reveal-delay="200">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="9" y1="3" x2="9" y2="21"></line>
+              <line x1="15" y1="3" x2="15" y2="21"></line>
+              <line x1="3" y1="9" x2="21" y2="9"></line>
+              <line x1="3" y1="15" x2="21" y2="15"></line>
+            </svg>
+          </div>
+          <h3>تنبيه ملء الشاشة</h3>
+          <p>تنبيه يظهر على الشاشة لمدة قصيرة لتنبيه المستخدم بوقت الراحة أو العمل.</p>
+        </article>
+        <article class="feature-card" data-reveal data-reveal-delay="300">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <h3>يعمل في الخلفية</h3>
+          <p>يعمل في الخلفية ويصغر إلى شريط المهام، ليواصل EasyRest عمله بهدوء بينما تركز على مهامك.</p>
+        </article>
+        <article class="feature-card" data-reveal data-reveal-delay="400">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <rect x="6" y="4" width="4" height="16"></rect>
+              <rect x="14" y="4" width="4" height="16"></rect>
+            </svg>
+          </div>
+          <h3>إيقاف واستئناف</h3>
+          <p>تحكم بالكامل عندما يتغير جدولك. أوقف المؤقت واستأنف عندما تكون مستعداً.</p>
+        </article>
+        <article class="feature-card" data-reveal data-reveal-delay="500">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <h3>العد التنازلي المباشر</h3>
+          <p>مؤقت واضح داخل لوحة التحكم يوضح الوقت المتبقي للفترة التالية.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+<!-- How It Works Section -->
+
+<section class="section how-it-works" id="how-it-works">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <h2>كيف يعمل</h2>
+      <p>حمّل الملف، شغّل التطبيق، واترك EasyRest يتكفل بالباقي.</p>
+    </div>
+
+```
+<div class="steps-container">
+  <div class="step" data-reveal>
+    <div class="step-number">1</div>
+    <div class="step-content">
+      <h3>شغّل EasyRest</h3>
+      <p>لا يحتاج إلى إعداد معقد. حمّل الملف وشغّل التطبيق مباشرة.</p>
+    </div>
+  </div>
+
+  <div class="step-connector" data-reveal data-reveal-delay="100"></div>
+
+  <div class="step" data-reveal data-reveal-delay="200">
+    <div class="step-number">2</div>
+    <div class="step-content">
+      <h3>خصّص التجربة إن أردت</h3>
+      <p>عدّل مدد العمل والراحة واختر أنواع التنبيهات التي تناسبك.</p>
+    </div>
+  </div>
+
+  <div class="step-connector" data-reveal data-reveal-delay="300"></div>
+
+  <div class="step" data-reveal data-reveal-delay="400">
+    <div class="step-number">3</div>
+    <div class="step-content">
+      <h3>ركّز على عملك</h3>
+      <p>يحفظ EasyRest إعداداتك ويتولى تذكيرك بأوقات الراحة أثناء عمله في الخلفية.</p>
+    </div>
+  </div>
+</div>
+```
+
+  </div>
+</section>
+
+
+
+  <!-- Download Section -->
+  <section class="section download" id="download">
+    <div class="container">
+      <div class="download-card" data-reveal>
+        <div class="download-content">
+          <h2>مستعد لأخذ فترات راحة أفضل؟</h2>
+          <p>حمّل EasyRest وابدأ في بناء عادات عمل صحية اليوم<br> مجاني، خفيف، ويعمل بصمت في الخلفية</p>
+          <div class="download-info">
+            <span class="download-version">الإصدار 1.0.0</span>
+          </div>
+          <a href="#" class="btn btn-download" aria-label="تحميل EasyRest لنظام Windows">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M2 3.5L10.5 2v8.5H2V3.5zm10.5-1.8L22 0v10.5H12.5V1.7zM2 12h8.5v9L2 19.5V12zm10.5 0H22v10.5l-9.5-1.8V12z"/>
+            </svg>
+            تحميل لنظام Windows
+          </a>
+          <div class="download-links">
+            <a href="https://github.com/maketmimi/EasyRest" class="download-link" aria-label="عرض على GitHub" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+              عرض على GitHub
+            </a>
+            <span class="download-separator">|</span>
+            <a href="mailto:malek2006etm@gmail.com" class="download-link">تواصل معي</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-text">EasyRest</span>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/maketmimi/EasyRest" aria-label="مستودع GitHub" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+          <a href="mailto:malek2006etm@gmail.com" aria-label="تواصل معي">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+        </div>
+          <p class="footer-copyright">
+            © 2026 EasyRest
+          </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
